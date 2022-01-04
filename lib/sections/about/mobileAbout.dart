@@ -51,7 +51,7 @@ class AboutMobile extends StatelessWidget {
             height: height * 0.028,
           ),
           Text(
-            "I'm Muhammad Hamza, a Flutter developer, Technical blog writer and UI designer.",
+            "I'm Karunamoorthy Tharusan, a Flutter developer, Technical blog writer and UI designer.",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.022,
               fontWeight: FontWeight.w400,
@@ -62,7 +62,7 @@ class AboutMobile extends StatelessWidget {
             height: height * 0.02,
           ),
           Text(
-            "I'm a Final Year Computer Science student enrolled in COMSATS University, Islamabad. I have been developing mobile apps for over 1.5 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. I'm an active Google Developer Student Clubs (DSC) lead and also CEO/Founder Flutter Islamabad, Pakistan.",
+            "I have been developing mobile apps for over 1.5 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. I'm an active Google Developer Student Clubs (DSC).",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.018,
               color: Colors.grey[500],
@@ -121,12 +121,12 @@ class AboutMobile extends StatelessWidget {
           ),
           AboutMeMetaData(
             data: "Name",
-            information: "Muhammad Hamza",
+            information: "Karunamoorthy Tharusan",
             alignment: Alignment.centerLeft,
           ),
           AboutMeMetaData(
             data: "Email",
-            information: "hamza.6.shakeel@gmail.com",
+            information: "ktharu0305@gmail.com",
             alignment: Alignment.centerLeft,
           ),
           SizedBox(
@@ -143,33 +143,33 @@ class AboutMobile extends StatelessWidget {
                       onPressed: () {
                         kIsWeb
                             ? html.window.open(
-                                'https://drive.google.com/uc?export=view&id=1OOdcdGEN3thVvpZ4cl_MM0LT-GCMuLIE',
+                                'https://drive.google.com/drive/u/0/folders/1K6q9ckmg--GunS5kq9LUkJgPqYPs9lFT',
                                 "pdf")
                             : launchURL(
-                                'https://drive.google.com/uc?export=view&id=1OOdcdGEN3thVvpZ4cl_MM0LT-GCMuLIE');
+                                'https://drive.google.com/drive/u/0/folders/1K6q9ckmg--GunS5kq9LUkJgPqYPs9lFT');
                       }),
                 ),
-                Container(
-                  width: width * 0.2,
-                  decoration: BoxDecoration(
-                    border: Border(
-                      bottom: BorderSide(color: Colors.grey[900], width: 2.0),
-                    ),
-                  ),
-                ),
+                // Container(
+                //   width: width * 0.2,
+                //   decoration: BoxDecoration(
+                //     border: Border(
+                //       bottom: BorderSide(color: Colors.grey[900], width: 2.0),
+                //     ),
+                //   ),
+                // ),
               ],
             ),
           ),
-          Row(
-            children: [
-              for (int i = 0; i < kCommunityLogo.length; i++)
-                CommunityIconBtn(
-                  icon: kCommunityLogo[i],
-                  link: kCommunityLinks[i],
-                  height: _communityLogoHeight[i],
-                ),
-            ],
-          ),
+          // Row(
+          //   children: [
+          //     for (int i = 0; i < kCommunityLogo.length; i++)
+          //       CommunityIconBtn(
+          //         icon: kCommunityLogo[i],
+          //         link: kCommunityLinks[i],
+          //         height: _communityLogoHeight[i],
+          //       ),
+          //   ],
+          // ),
         ],
       ),
     );

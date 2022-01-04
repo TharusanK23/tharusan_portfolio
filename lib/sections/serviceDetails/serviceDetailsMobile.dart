@@ -138,7 +138,7 @@ class _ServiceDetailsMobileState extends State<ServiceDetailsMobile> {
                 alignment: Alignment.center,
                 child: CustomFilledBtn(
                   height: 40.0,
-                  onPressed: () => launchURL("https://wa.me/?text=Hi Hamza!"),
+                  onPressed: () => launchURL("https://wa.me/?text=Hi Tharusan!"),
                   btnColor: Color(0xff34CB62),
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
@@ -146,28 +146,6 @@ class _ServiceDetailsMobileState extends State<ServiceDetailsMobile> {
                       Icon(FontAwesomeIcons.whatsapp),
                       const SizedBox(width: 8.0),
                       Text("WhatsApp"),
-                    ],
-                  ),
-                ),
-              ),
-              const SizedBox(height: 15.0),
-              Align(
-                alignment: Alignment.center,
-                child: CustomFilledBtn(
-                  height: 40.0,
-                  onPressed: () => launchURL(
-                      "https://www.upwork.com/freelancers/~0197b0f6aaeba9675f"),
-                  btnColor: Color(0xff13A800),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Image.network(
-                        "https://img.icons8.com/ios-filled/50/000000/upwork.png",
-                        height: 35.0,
-                        color: Colors.white,
-                      ),
-                      const SizedBox(width: 8.0),
-                      Text("Upwork"),
                     ],
                   ),
                 ),

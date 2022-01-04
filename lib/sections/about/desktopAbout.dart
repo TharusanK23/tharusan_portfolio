@@ -55,7 +55,7 @@ class AboutDesktop extends StatelessWidget {
                         height: height * 0.03,
                       ),
                       AdaptiveText(
-                        "I'm Muhammad Hamza, a Flutter developer, Technical blog writer and UI designer.",
+                        "I'm Karunamoorthy Tharusan, a Flutter developer, Technical blog writer and UI designer.",
                         style: GoogleFonts.montserrat(
                           fontSize: height * 0.035,
                           fontWeight: FontWeight.w400,
@@ -68,7 +68,7 @@ class AboutDesktop extends StatelessWidget {
                         height: height * 0.02,
                       ),
                       AdaptiveText(
-                        "I'm a Final Year Computer Science student enrolled in COMSATS University, Islamabad. I have been developing mobile apps for over 1.5 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. I'm an active Google Developer Student Clubs (DSC) lead and also CEO/Founder Flutter Islamabad, Pakistan.",
+                        "I have been developing mobile apps for over 1.5 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. I'm an active Google Developer Student Clubs (DSC).",
                         style: GoogleFonts.montserrat(
                           fontSize: height * 0.02,
                           color: Colors.grey[500],
@@ -121,11 +121,11 @@ class AboutDesktop extends StatelessWidget {
                         children: [
                           AboutMeMetaData(
                             data: "Name",
-                            information: "Muhammad Hamza",
+                            information: "Karunamoorthy Tharusan",
                           ),
                           AboutMeMetaData(
                             data: "Email",
-                            information: "hamza.6.shakeel@gmail.com",
+                            information: "ktharu0305@gmail.com",
                           ),
                         ],
                       ),
@@ -139,27 +139,27 @@ class AboutDesktop extends StatelessWidget {
                             child: OutlinedCustomBtn(
                               onPressed: () {
                                 html.window.open(
-                                    'https://drive.google.com/file/d/1GF-wtbu2ob_Uxhw2In2QA8QiYi3XjCj1/view?usp=sharing',
+                                    'https://drive.google.com/drive/u/0/folders/1K6q9ckmg--GunS5kq9LUkJgPqYPs9lFT',
                                     "pdf");
                               },
                               btnText: "Resume",
                             ),
                           ),
-                          Container(
-                            width: width * 0.05,
-                            decoration: BoxDecoration(
-                              border: Border(
-                                bottom: BorderSide(
-                                    color: Colors.grey[900], width: 2.0),
-                              ),
-                            ),
-                          ),
-                          for (int i = 0; i < kCommunityLogo.length; i++)
-                            CommunityIconBtn(
-                              icon: kCommunityLogo[i],
-                              link: kCommunityLinks[i],
-                              height: _communityLogoHeight[i],
-                            ),
+                          // Container(
+                          //   width: width * 0.05,
+                          //   decoration: BoxDecoration(
+                          //     border: Border(
+                          //       bottom: BorderSide(
+                          //           color: Colors.grey[900], width: 2.0),
+                          //     ),
+                          //   ),
+                          // ),
+                          // for (int i = 0; i < kCommunityLogo.length; i++)
+                          //   CommunityIconBtn(
+                          //     icon: kCommunityLogo[i],
+                          //     link: kCommunityLinks[i],
+                          //     height: _communityLogoHeight[i],
+                          //   ),
                         ],
                       ),
                     ],

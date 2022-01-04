@@ -202,7 +202,7 @@ class ServiceCardBackWidget extends StatelessWidget {
                           CustomFilledBtn(
                             height: 40.0,
                             onPressed: () =>
-                                launchURL("https://wa.me/?text=Hi Hamza!"),
+                                launchURL("https://wa.me/?text=Hi Tharusan!"),
                             btnColor: Color(0xff34CB62),
                             child: Row(
                               mainAxisSize: MainAxisSize.min,
@@ -210,25 +210,6 @@ class ServiceCardBackWidget extends StatelessWidget {
                                 Icon(FontAwesomeIcons.whatsapp),
                                 const SizedBox(width: 8.0),
                                 Text("WhatsApp"),
-                              ],
-                            ),
-                          ),
-                          const SizedBox(height: 20.0),
-                          CustomFilledBtn(
-                            height: 40.0,
-                            onPressed: () => launchURL(
-                                "https://www.upwork.com/freelancers/~0197b0f6aaeba9675f"),
-                            btnColor: Color(0xff13A800),
-                            child: Row(
-                              mainAxisSize: MainAxisSize.min,
-                              children: [
-                                Image.network(
-                                  "https://img.icons8.com/ios-filled/50/000000/upwork.png",
-                                  height: 35.0,
-                                  color: Colors.white,
-                                ),
-                                const SizedBox(width: 8.0),
-                                Text("Upwork"),
                               ],
                             ),
                           ),
@@ -248,31 +229,3 @@ class ServiceCardBackWidget extends StatelessWidget {
     );
   }
 }
-
-/*Row(
-                            mainAxisSize: MainAxisSize.min,
-                            children: [
-                              InkWell(
-                                onTap: () => launchURL(kServicesLinks[0]),
-                                child: Image.asset(
-                                  'assets/services/fiverr.png',
-                                  height: 25.0,
-                                  color: _themeProvider.lightTheme
-                                      ? Colors.black
-                                      : Colors.green,
-                                ),
-                              ),
-                              const SizedBox(width: 30.0),
-                              InkWell(
-                                onTap: () => launchURL(
-                                    "https://www.upwork.com/freelancers/~0197b0f6aaeba9675f"),
-                                child: Image.network(
-                                  "https://img.icons8.com/ios-filled/50/000000/upwork.png",
-                                  height: 33.0,
-                                  color: _themeProvider.lightTheme
-                                      ? Colors.black
-                                      : Colors.green,
-                                ),
-                              ),
-                            ],
-                          )*/

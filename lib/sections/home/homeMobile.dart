@@ -59,7 +59,7 @@ class _HomeMobileState extends State<HomeMobile> {
                   height: height * 0.01,
                 ),
                 Text(
-                  "Muhammad",
+                  "Karunamoorthy",
                   style: GoogleFonts.montserrat(
                       fontSize: height * 0.055,
                       color: _themeProvider.lightTheme
@@ -69,7 +69,7 @@ class _HomeMobileState extends State<HomeMobile> {
                       letterSpacing: 1.1),
                 ),
                 Text(
-                  "Hamza",
+                  "Tharusan",
                   style: GoogleFonts.montserrat(
                       color: _themeProvider.lightTheme
                           ? Colors.black

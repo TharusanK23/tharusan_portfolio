@@ -33,7 +33,7 @@ class _MainPageState extends State<MainPage> {
     "HOME",
     "ABOUT",
     "SERVICES",
-    "PROJECTS",
+    // "PROJECTS",
     "CONTACT"
   ];
 
@@ -69,9 +69,11 @@ class _MainPageState extends State<MainPage> {
       return About();
     } else if (i == 2) {
       return Services();
-    } else if (i == 3) {
-      return Portfolio();
-    } else if (i == 4) {
+    }
+    //  else if (i == 3) {
+    //   return Portfolio();
+    // } 
+    else if (i == 4) {
       return Contact();
     } else if (i == 5) {
       return Footer();
@@ -289,7 +291,7 @@ class _MainPageState extends State<MainPage> {
               ),
               ListTile(
                 leading: Icon(
-                  Icons.light_mode,
+                  Icons.wb_sunny_outlined,
                   color: kPrimaryColor,
                 ),
                 title: Text("Dark Mode",
@@ -318,7 +320,7 @@ class _MainPageState extends State<MainPage> {
                       side: BorderSide(color: kPrimaryColor)),
                   onPressed: () {
                     launchURL(
-                        "https://drive.google.com/file/d/1GF-wtbu2ob_Uxhw2In2QA8QiYi3XjCj1/view?usp=sharing");
+                        "https://drive.google.com/drive/u/0/folders/1K6q9ckmg--GunS5kq9LUkJgPqYPs9lFT");
                   },
                   child: ListTile(
                     leading: Icon(

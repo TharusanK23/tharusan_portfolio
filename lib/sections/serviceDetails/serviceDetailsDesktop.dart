@@ -2,6 +2,7 @@ import 'dart:ui';
 
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:folio/constants.dart';
 import 'package:folio/provider/themeProvider.dart';
 import 'package:folio/widget/adaptiveText.dart';
@@ -124,7 +125,7 @@ class ServiceDetailsDescription extends StatelessWidget {
             alignment: Alignment.center,
             child: CustomFilledBtn(
               height: 40.0,
-              onPressed: () => launchURL("https://wa.me/?text=Hi Hamza!"),
+              onPressed: () => launchURL("https://wa.me/?text=Hi Tharusan!"),
               btnColor: Color(0xff34CB62),
               child: Row(
                 mainAxisSize: MainAxisSize.min,
@@ -132,28 +133,6 @@ class ServiceDetailsDescription extends StatelessWidget {
                   Icon(FontAwesomeIcons.whatsapp),
                   const SizedBox(width: 8.0),
                   Text("WhatsApp"),
-                ],
-              ),
-            ),
-          ),
-          const SizedBox(height: 20.0),
-          Align(
-            alignment: Alignment.center,
-            child: CustomFilledBtn(
-              height: 40.0,
-              onPressed: () => launchURL(
-                  "https://www.upwork.com/freelancers/~0197b0f6aaeba9675f"),
-              btnColor: Color(0xff13A800),
-              child: Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Image.network(
-                    "https://img.icons8.com/ios-filled/50/000000/upwork.png",
-                    height: 35.0,
-                    color: Colors.white,
-                  ),
-                  const SizedBox(width: 8.0),
-                  Text("Upwork"),
                 ],
               ),
             ),
@@ -220,21 +199,13 @@ class _ServicesShowCaseState extends State<ServicesShowCase> {
               ),
               kProjectsTitles[_currentIndex] == kProjectsTitles[1]
                   ? InkWell(
-                      onTap: () => launchURL(
-                          "https://play.google.com/store/apps/details?id=com.hmz.al_quran&pli=1"),
+                      onTap: () {},
                       child: Icon(
                         FontAwesomeIcons.googlePlay,
                         color: Colors.green,
                       ))
                   : Container(),
               Expanded(child: Container()),
-              IconButton(
-                onPressed: () => launchURL(kProjectsLinks[_currentIndex]),
-                icon: Icon(Icons.arrow_forward,
-                    color: _themeProvider.lightTheme
-                        ? Colors.black
-                        : Colors.white),
-              ),
             ],
           ),
           const SizedBox(height: 15.0),

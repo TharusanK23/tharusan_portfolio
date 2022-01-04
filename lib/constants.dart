@@ -8,19 +8,15 @@ const Color kPrimaryColor = Color(0xffC0392B);
 const kSocialIcons = [
   "https://img.icons8.com/metro/208/ffffff/facebook-new--v2.png",
   "https://img.icons8.com/ios-glyphs/480/ffffff/instagram-new.png",
-  "https://img.icons8.com/android/480/ffffff/twitter.png",
   "https://img.icons8.com/metro/308/ffffff/linkedin.png",
-  "https://img.icons8.com/material-rounded/384/ffffff/github.png",
-  "https://img.icons8.com/ios-filled/500/ffffff/medium-monogram--v1.png"
+  "https://img.icons8.com/material-rounded/384/ffffff/github.png"
 ];
 
 const kSocialLinks = [
-  "https://facebook.com/mhmzdev",
-  "https://instagram.com/mhmzdev",
-  "https://twitter.com/mhmzdev",
-  "https://linkedin.com/in/mhmzdev",
-  "https://github.com/mhmzdev",
-  "https://mhamzadev.medium.com"
+  "https://www.facebook.com/TharusanK23/",
+  "https://www.instagram.com/tharusan_k_23",
+  "https://www.linkedin.com/in/tharusank23/",
+  "https://github.com/TharusanK23"
 ];
 
 // URL Launcher
@@ -44,9 +40,9 @@ final kCommunityLinks = [
 final kTools = [
   "Flutter",
   "Dart",
-  "Python",
-  "Java",
-  "C++",
+  "Angular",
+  "Node.JS",
+  "MongoDB",
   "HTML",
   "CSS",
   "Bootstrap"
@@ -57,7 +53,6 @@ final kServicesIcons = [
   "assets/services/app.png",
   "assets/services/ui.png",
   "assets/services/rapid.png",
-  "assets/services/blog.png",
   "assets/services/open.png",
 ];
 
@@ -65,7 +60,6 @@ final kServicesTitles = [
   "Full App Development",
   "UI/UX Designing",
   "Rapid Prototyping",
-  "Technical Blog Writing",
   "Open Source - GitHub",
 ];
 
@@ -89,8 +83,7 @@ final kServicesLinks = [
   "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
   "https://www.fiverr.com/hamza6shakeel/get-you-modern-ui-design-using-adobe-xd",
   "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
-  "https://mhamzadev.medium.com",
-  "https://github.com/mhmzdev"
+  "https://github.com/TharusanK23"
 ];
 
 // projects
@@ -167,7 +160,7 @@ final kContactTitles = [
 ];
 
 final kContactDetails = [
-  "Attock, Pakistan",
-  "(+92) 346 0159889",
-  "hamza@mhmz.dev"
+  "Jaffna, Sri Lanka",
+  "(+94) 77 1000516",
+  "ktharu0305@gmail.com"
 ];
